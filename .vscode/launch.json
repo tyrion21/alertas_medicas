@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "KafkaConsumerApplication",
+            "request": "launch",
+            "mainClass": "com.example.kafka_consumer.KafkaConsumerApplication",
+            "projectName": "kafka-consumer"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-KafkaProducerApplication<kafka-producer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.kafka_producer.KafkaProducerApplication",
+            "projectName": "kafka-producer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
