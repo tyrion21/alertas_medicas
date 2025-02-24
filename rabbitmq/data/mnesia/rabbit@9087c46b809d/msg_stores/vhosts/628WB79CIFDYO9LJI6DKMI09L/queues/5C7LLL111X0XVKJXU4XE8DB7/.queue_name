@@ -1,0 +1,3 @@
+VHOST: /
+QUEUE: mensaje_alerta_queue
+INDEX: v2
